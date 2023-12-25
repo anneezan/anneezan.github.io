@@ -7057,7 +7057,8 @@ textarea.form-control-lg {
 }
 
 .fixed-top {
-  position: fixed;
+  /* OVERRIDE position: fixed; */
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
